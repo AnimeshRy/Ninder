@@ -9,7 +9,7 @@ dotenv.load_dotenv()
 
 app = Flask(__name__)
 
-apiKey = str(os.getenv('omdpKey'))
+apiKey = str(os.getenv('omdbKey'))
 
 
 @app.route("/")
