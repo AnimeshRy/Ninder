@@ -37,7 +37,6 @@ def home():
         'imdb': 'Not Available'
     }
 
-    print(apiKey)
     # fetch cover image
     # call OMDB database
     url = f"http://www.omdbapi.com/?t={movie['title']}/&apikey={apiKey}"
