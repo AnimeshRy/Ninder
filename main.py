@@ -5,8 +5,6 @@ import requests
 import dotenv
 import os
 
-from requests import api
-
 dotenv.load_dotenv()
 
 app = Flask(__name__)
