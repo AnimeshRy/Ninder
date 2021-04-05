@@ -13,7 +13,7 @@ A Flask app that generates random movie recommendations, with details listed for
 2. Obtain an API Key for OMDB, and add it to your environment file using the following format:
 
     ```
-    omdbKey="YOUR_KEY"
+    export omdbKey="YOUR_KEY"
     ```
 
 3. Download the CSV linked in [this Kaggle dataset](https://www.kaggle.com/shivamb/netflix-shows) and name the file `catalog.csv`. This will store the bulk of our data.

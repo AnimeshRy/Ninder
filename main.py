@@ -2,15 +2,12 @@ from flask import Flask, render_template
 import csv
 import random
 import requests
-import dotenv
 import os
-
-dotenv.load_dotenv()
 
 app = Flask(__name__)
 
 apiKey = str(os.getenv('omdbKey'))
-
+print(apiKey)
 
 @app.route("/")
 def home():
